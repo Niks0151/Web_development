@@ -1,0 +1,42 @@
+#static{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: aqua;
+    position: static;
+}
+
+#relative{
+    
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 20px;
+        background-color: yellow;
+        position: relative;
+        top: 50px;
+        left: 200px;
+    }
+
+#abs{
+
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: pink;
+    position: absolute;
+}
+
+#fixed{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:green;
+    position: fixed;
+}
+p{
+    font-size:xx-large;
+}

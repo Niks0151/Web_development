@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- action attribute defines what action is to perform after form submitting -->
+   <form action="/action">
+    <!-- <input type="text">
+    <input type="number" name="" id="">
+    <input type="date">
+    <input type="color" name="" id="">
+     -->
+
+   <!-- Placeholder -->
+    <!-- Name attribute in input use to refer in the backend that what info passed -->
+    <section>
+        <label for="UserName">UserName : </label>
+        <input id="UserName" name="UserName" placeholder="Enter User Name">
+</section>
+<section>
+        <label for="Password">Password  :</label>
+        <input id="Password" type="password" placeholder="Enter Password">
+
+</section>
+<section>
+        <label for="age">Age :</label>
+        <input id="age" type="number" placeholder="Enter Age">
+</section>
+<button>Submit</button>
+<button type="reset">Reset</button>
+<!-- Button using input -->
+ <input type="button" value="click me">
+</form>
+<hr>
+<form action="/server">
+    <label for="Educated">Educated</label>
+    <input type="checkbox" name="Educated" id="Educated">
+    <button>Submit</button>
+
+    <hr>
+    <label for="Male">Male</label>
+    <input type="radio" name="gender" id="Male" value="Male">
+    <label for="FeMale">FeMale</label>
+    <input type="radio" name="gender" id="Female" value="Female">
+
+    <hr>
+    <label for="State">States</label>
+<!-- select is used for dropdown -->
+
+    <select name="State" id="State">
+        <option value="Selection">Select Ur option</option>
+        <option value="MH">MH</option>
+        <option value="UP">UP</option>
+        <option value="MP">MP</option>
+        <option value="SS" selected>SS</option>
+        <option value="BH">BH</option>
+    </select>
+
+ <hr>
+ <label for="vol">Volume</label>
+ <input type="range" name="vol" id="vol" min="0" max="50" step="10">
+ 
+ <hr>
+ <!-- TextArea use for like getting feedback vagiere -->
+  <label for="feedback">FeedBack</label><br>
+  <textarea name="feedback" id="feedback" rows="10" cols="20"></textarea>
+</form>
+
+</body>
+</html>

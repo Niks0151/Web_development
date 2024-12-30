@@ -1,0 +1,52 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    /* animation-name: fontanimation; */
+    animation: color 3s ease-in 0s infinite alternate;
+    /* animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+}
+
+
+/* @keyframes fontanimation{
+    from {
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}  */ 
+/* 
+@keyframes color{
+    from{
+        background-color:pink ;
+        font-size: 20px;
+        width: 300px;
+    }
+    to{
+        background-color: red;
+        font-size: 40px;
+        width: 600px;
+    }
+} */
+
+/* ANIMATION WITH DIFFERENT STAGES */
+@keyframes color{
+    0%{
+        background-color:pink ;
+        font-size: 20px;
+        width: 300px;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: red;
+        font-size: 40px;
+        width: 600px;
+    }
+}

@@ -1,0 +1,44 @@
+#container{
+    background-color: azure;
+    height: 500px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row; 
+     /* flex-direction: row-reverse; */
+    /*flex-direction: column-reverse; */
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    /* align-items:center; */
+     /* align-content: flex-end;  */
+     /* align-content: space-evenly;  */
+     /* align-content: space-between;*/
+
+
+     /* Flex SIzing */
+     /* 1.Flex Basis */
+     /* 2.Flex grow */
+
+
+} 
+#orange{
+    /* align-self: flex-end; */
+    align-self: baseline;
+    /* flex-basis: 300px; */
+    /* flex-grow: 1;
+    min-width: 300px; */
+    flex-shrink: 2;
+
+
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height:200px ;
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

@@ -1,0 +1,110 @@
+/* universal selector(*) use for all... */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Element selector */
+h3{
+    color: brown;
+}
+h1{
+    color: #b92b27;
+    font-weight: bolder;
+}
+
+/* ID selector */
+#login,#signup{
+background-color: bisque;
+}
+
+/* class selector */
+
+.upvote{
+    background-color: aqua;
+}
+
+/* descendent Selector */
+p a{
+    color:darkgreen;
+    background-color: yellow;
+}
+/* 
+Adjacent sibling combinator */
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: aquamarine;
+}
+
+/* child combinator */
+div > input{
+    background-color: lavender;
+}
+/* Attribute selector */
+input [type="text"] { 
+    color: green;
+}
+input [type="password"] {
+    color: red;
+}
+
+/* Pseudoclasses */
+
+/* 1.hover */
+
+button:hover{
+    background-color: blueviolet;
+}
+
+/* 2.Active */
+
+button:active{
+    background-color: darkolivegreen;
+}
+
+p:active{
+    font-weight: bold;
+}
+
+/* 3.Checked */
+input[type="radio"]:checked+label{
+    font-weight: bold;
+    color: #b92b27;
+}
+
+/* nth-of-type */
+div:nth-of-type(2){
+    background-color: bisque;
+}
+
+/* PSEUDO ELEMENT */
+
+/* 1.First Letter */
+h1::first-letter{
+color: black;
+}
+
+/* 2.First Line */
+#Myp::first-line{
+    color: crimson;
+    font-weight: bold;
+  
+}
+#Myp::selection{
+    background-color: yellow;
+}
+/* 3.selected */
+p::selection{
+    background-color:limegreen;
+}
+
+/* important ti show the most imp thing that u cant change its css */
+h3{
+    background-color:antiquewhite !important;
+}
+
+/* inhereting from parents i.e div */
+#K{
+    background-color: aquamarine;
+}
