@@ -12,7 +12,7 @@ This repository contains my learning journey with **HTML** and **CSS** — where
 | `forms.html`         | Sample HTML form layout                    |
 | `tables.html`        | Learning to create and style tables        |
 | `layouts/`           | Experiments with Flexbox & Grid            |
-| `landing-page.html`  | A simple landing page using HTML + CSS     |
+| `Animations       `  | Animations practice using HTML + CSS       |
 | `style.css`          | Central stylesheet for layout & color      |
 
 ---
