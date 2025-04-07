@@ -43,6 +43,6 @@ I'm building this repo to document and showcase my progress as I grow into a bet
 
 ## 💬 Feedback or Collaboration?
 
-Open to suggestions, improvements, or beginner-friendly collaboration! Drop a message or connect via [LinkedIn](www.linkedin.com/in/nikita-yadav-769140292).
+Open to suggestions, improvements, or beginner-friendly collaboration! Drop a message or connect via [LinkedIn](https://www.linkedin.com/in/nikita-yadav-769140292/).
 
 ---
