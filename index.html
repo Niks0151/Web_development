@@ -4,93 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Chapter2</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Spider-Man</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-        <h1>Quora 
-            <button id="login">Log in</button>
-            <button id="signup">Sign up</button>
-        </h1>
-        <div>
-            <input type="text" placeholder="username">
-            <input type="password" placeholder="password">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="/home">Home</a></li>
-                <li><a href="/following">Following</a></li>
-                <li><a href="/answer">Answer</a></li>
-                <li><a href="/spaces">Spaces</a></li>
-            </ul>
-        </nav>
-        <hr>
-    </header>
-    <main>
-        <div>
-        <p>
-        Adam &nbsp;&nbsp;
-        <a class="follow" href="/adam">Follow /abc</a></span>
-        </p>
-        <h3>What is the highest salary for a spacex engineer?</h3>
-        <span>
-            <button class="upvote">+upvote</button>
-            <button>answer</button>
-        </span></div>
-        <hr />
-<div>
-        <p>
-        Bob &nbsp;&nbsp;
-        <a class="follow" href="/bob">Follow xyz</a>
-        </p>
-        <h3>What is the syllabus for JEE 2024?</h3>
-        <span>
-            <button class="upvote">+upvote</button>
-            <button>answer</button>
-        </span></div>
-        <hr />
-<div>
-        <p>
-        Catlyn &nbsp;&nbsp;&nbsp;&nbsp;
-        <a class="follow" href="/catlyn">Follow pqr</a>
-        </p>
-        <h3>Why is the sky blue?</h3>
-        <span>
-            <button class="upvote">+upvote</button>
-            <button>answer</button>
-        </span></div>
-        <hr />
-<div>        <p>
-            Dan &nbsp;&nbsp;&nbsp;&nbsp;
-            <a class="follow" href="/dan">Follow pqr</a>
-            </p>
-            <h3>Why is the sky blue?</h3>
-            <span>
-                <button>+upvote</button>
-                <button>answer</button>
-            </span></div>
-            <hr />
-            <div>
-                <input type="radio" name="agreement" id="yes">
-                <label for="yes">Yes</label>
-                <input type="radio" name="agreement" id="no">
-                <label for="no">No</label>
-            </div>
-            
-            <p id="Myp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reiciendis at, ut nisi repellat aspernatur blanditiis libero minima! Voluptatem in repudiandae nam pariatur debitis, voluptatum consectetur error saepe temporibus voluptates.</p>
+    <h1>Spider Man</h1>
+    <img src="assets/spiderman_img.png" id="mainImg" />
+    <h2>About</h2>
+    <p>
+      <b>Spider-Man</b> is a superhero appearing in American comic books
+      published by
+      <a href="https://www.google.com/search?q=Marvel+Comics">Marvel Comics</a>.
+      Created by writer-editor <b>Stan Lee</b> and artist <b>Steve Ditko</b>, he
+      first appeared in the anthology comic book
+      <a href="https://www.google.com/search?q=Amazing+Fantasy"
+        >Amazing Fantasy</a
+      >
+      #15 (August 1962) in the <a href="#">Silver Age of Comic Books</a>. He has
+      been featured in comic books, television shows, films, video games,
+      novels, and plays
+    </p>
 
-            <div id="K">
-                <p>
-                    <ul>
-                        <li>1</li>
-                        <li>b</li>
-                        <li>c</li>
-                        <li>d</li>
-                        <li>e</li>
-                    </ul>
-                </p>
-            </div>
-    </main>
+    <div class="box">
+      <h4>Publication Info</h4>
+      <ul>
+        <li><a href="#" class="boxLink">Publisher</a></li>
+        <li><a href="#" class="boxLink">First Appearance</a></li>
+        <li>
+          Created by
+          <ul>
+            <li><a href="#" class="boxLink">Stan Lee</a></li>
+            <li><a href="#" class="boxLink">Steve Ditko</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <h2>Creation & Development</h2>
+    <p id="description">
+      In 1962, with the success of the Fantastic Four, Marvel Comics editor and
+      head writer Stan Lee was casting for a new superhero idea. He said the
+      idea for Spider-Man arose from a surge in teenage demand for comic books
+      and the desire to create a character with whom teens could identify. As
+      with Fantastic Four, Lee saw Spider-Man as an opportunity to "get out of
+      his system" what he felt was missing in comic books. In his autobiography,
+      Lee cites the non-superhuman pulp magazine crime fighter the Spider as a
+      great influence, and in a multitude of print and video interviews, Lee
+      stated he was further inspired by seeing a spider climb up a wall—adding
+      in his autobiography that he has told that story so often he has become
+      unsure of whether or not this is true.
+    </p>
+    <div class="images">
+      <img src="Assets/creation_1.png" class="oldImg" />
+      <img src="Assets/creation_2.jpeg" class="oldImg" />
+      <img src="Assets/creation_3.jpeg" class="oldImg" />
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
